@@ -46,7 +46,6 @@
   list-style: none;
   display: inline-block;
   margin: 1rem;
-
 }
 
 #links-div{
@@ -54,4 +53,12 @@
   display: flex;
   justify-content: center;
   bottom: 670px;
+}
+
+#links-div ul li{
+  transition: 1s;
+}
+
+#links-div ul li:hover{
+  transform: scale(1.2);
 }
