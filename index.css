@@ -30,7 +30,7 @@ a { color: inherit; }
 #first{
   color: #E879F9;
   font-family: nice;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 #name {
@@ -40,8 +40,7 @@ a { color: inherit; }
   font-family: medium;
 }
 
-#description{
-  padding-top: 2rem;
+.description{
   font-size: 1.3rem;
   color: #8892B0;
   font-family: medium;
@@ -91,7 +90,8 @@ header, #links, li:hover {
 }
 
 h2{
-  padding-top: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
   color: #8892B0;
   font-family: medium;
   font-size: 2rem;
@@ -103,7 +103,7 @@ h2{
 }
 
 #about-me{
-  padding-top: 3rem;
+  padding-top: 2rem;
   background-color: rgb(15, 23, 42);
   text-align: center;
   height: 100vh;
@@ -111,6 +111,7 @@ h2{
 
 .pink{
   color: #E879F9;
+  font-size: 3rem;
 }
 
 .grey{
@@ -125,3 +126,13 @@ h2{
 }
 
 
+.profile{
+  width: 14%;
+}
+
+#projects{
+  padding-top: 2rem;
+  background-color: rgb(15, 23, 42);
+  text-align: center;
+  height: 100vh;
+}
