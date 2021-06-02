@@ -4,61 +4,99 @@
   box-sizing: border-box;
 }
 
+a { color: inherit; } 
+
+@font-face {
+  font-family:"nice";
+  src: url("fonts/JetBrainsMono-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family:"medium";
+  src: url("fonts/SFNSDisplay-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family:"light";
+  src: url("fonts/SFNSDisplay-Thin.ttf") format("truetype");
+}
+
 #background-div{
-  background: url(H08zpjw-chicago-skyline-wallpaper.jpg);
-  background-size: cover;
-  height: 969px;
-}
-
-#name-div h1{
-  font-family: 'Noto Sans JP', sans-serif;
-  color: white;
-  display: flex;
-  justify-content: center;
-  padding: 200px;
-  font-size: 130px;
-  text-shadow: 0px 1px 3px rgb(0 0 0 / 80%);
-}
-
-#description h2{
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 500px;
-  position: relative;
-  bottom: 190px;
-  text-shadow: 0px 1px 3px rgb(0 0 0 / 80%);
-}
-
-#projects{
   background-color: rgb(15, 23, 42);
-  width: 100%;
-  height: 50vh;
+  background-size: cover;
+  height: 100vh;
 }
 
-#links-div img{
-  height: 50px;
-  width: auto;
+#first{
+  color: #E879F9;
+  font-family: nice;
+  font-size: 0.9rem;
 }
 
-#links-div li{
+#name {
+  font-size: 5rem;
+  padding-top: 2rem;
+  color: white;
+  font-family: medium;
+}
+
+#description{
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  color: #8892B0;
+  font-family: medium;
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+#name-desciption-div{
+  display: inline-block;
+  padding-left: 20rem;
+  padding-top: 12rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+header, #links, li {
+  font-family: nice;
   list-style: none;
   display: inline-block;
   margin: 1rem;
+  text-align: right;
+  text-decoration: none;
+  color: #8892B0;
 }
 
-#links-div{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  bottom: 670px;
+header, #links, li:hover {
+  color: #E879F9;
 }
 
-#links-div ul li{
-  transition: 1s;
+#wrapper{
+  display: inline-block;
 }
 
-#links-div ul li:hover{
-  transform: scale(1.2);
+#social-links{
+  color: #8892B0;
+  text-decoration: none;
 }
+
+#social-links, a:hover{
+  color: #E879F9;
+}
+
+h2{
+  padding-top: 1rem;
+  color: #8892B0;
+  font-family: medium;
+  font-size: 2rem;
+}
+
+.animate{
+  color: #E879F9;
+  font-family: medium;
+}
+

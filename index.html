@@ -10,24 +10,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;900&display=swap" rel="stylesheet"> 
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <title>John Murphy - Personal Website</title>
 </head>
 <body>
     <div id="background-div">
-        <div id="name-div">
-            <h1>John Murphy</h1>
-            <div id="description">
-                <h2>Web Developer | Software Engineer</h2>
-                <div id="links-div">
-                    <ul>
-                        <li><a href="https://github.com/jmurphy5613"><img src="github.png" alt=""></a></li>
-                        <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxwLWlKTcDSnkpSBsKvnHFwVDKvhcsKLmKRVPDpRfTbCcqFvzVlMpXSVlgPBWbmTWkgfdG"><img src="60543.png" alt=""></a></li>
-                    </ul>
+        <div id="main-content-div">
+            <header>
+                <ul id="links">
+                    <li><a href="" style="text-decoration: none;"><p id="label">01.</p>About</a></li>
+                    <li><a href="" style="text-decoration: none;"><p id="label">02.</p>Projects</a></li>
+                    <li><a href="" style="text-decoration: none;"><p id="label">03.</p>Contact</a></li>
+                </ul>
+            </header>
+            <div id="wrapper">
+                <div id="name-desciption-div">
+                    <h3 id="first">Hello there, my name is</h3>
+                    <h1 id="name">John Murphy. I'm a <span class="animate"></span></h1>
+                    <div id="social-links">
+                        <li><a href="">Github</a></li>
+                        <li><a href="">Email</a></li>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </div>
-    <div id="projects">
+    <div id="about-me">
+        <p id="description">I'm a web developer in the Philidephia area and really enjoy the intracasies and depth of programming. I specialize in building practical and responsive websites. Let me know if you want me to do work for you!</p>
     </div>
+    <div id="projects">
+        
+    </div>
+    <script src="typed.js"></script>
+    <script>
+        var typed = new Typed('.animate', {
+            strings: [
+                "Developer",
+                "Designer",
+                "Freelancer"
+            ],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true,
+        });
+    </script>
 </body>
 </html>
