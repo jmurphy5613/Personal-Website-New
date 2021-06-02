@@ -35,7 +35,7 @@ a { color: inherit; }
 
 #name {
   font-size: 5rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   color: white;
   font-family: medium;
 }
@@ -47,6 +47,8 @@ a { color: inherit; }
   font-family: medium;
   max-width: 500px;
   line-height: 1.5;
+  text-align: left;
+  margin: 2rem;
 }
 
 #name-desciption-div{
@@ -99,4 +101,27 @@ h2{
   color: #E879F9;
   font-family: medium;
 }
+
+#about-me{
+  padding-top: 3rem;
+  background-color: rgb(15, 23, 42);
+  text-align: center;
+  height: 100vh;
+}
+
+.pink{
+  color: #E879F9;
+}
+
+.grey{
+  color: #8892B0;
+}
+
+#content{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
 
