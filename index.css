@@ -134,5 +134,23 @@ h2{
   padding-top: 2rem;
   background-color: rgb(15, 23, 42);
   text-align: center;
-  height: 100vh;
+  height: 250vh;
+  width: 100%;
+}
+
+#caption{
+  color: white;
+  font-family: medium;
+}
+
+.caption{
+  text-align: left;
+  max-width: 900px; 
+  margin-left: 30%;
+}
+
+h4{
+  color: #8892B0;
+  font-size: 2rem;
+  font-family: medium;
 }
